@@ -6,7 +6,7 @@ const GrandSonBox = () => {
     let count = useSelector(state=>state.count)
 
   return (
-    <div>GrandSonBox {count}</div>
+    <div> {count}</div>
   )
 }
 
