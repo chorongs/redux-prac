@@ -35,8 +35,22 @@ button {
     border-radius: 5px; 
     cursor: pointer; 
     transition: background-color 0.3s;
+    margin-bottom: 10px;
 }
 
 button:hover {
     background-color: #0b5ed7; 
+}
+
+.reset-button {
+    background-color: #ff8c00;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.reset-button:hover {
+    background-color: #e07b00; 
 }
