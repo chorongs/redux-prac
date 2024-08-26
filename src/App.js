@@ -20,8 +20,10 @@ function App() {
   return (
     <div className="container">
       <h1>{count}</h1>
+      <div className="button-container">
       <button onClick={inc}>증가버튼</button>
       <button onClick={dec}>감소버튼</button>
+    </div>
       <Box />
     </div>
   );
